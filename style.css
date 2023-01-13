@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: rgb(68, 83, 161);
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+#form-container{
+    background-color:whitesmoke;
+    padding: 50px;
+    text-align: center;
+    
+}
+h3{
+    margin: 0 0 20px 0;
+}
+input,button{
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+button{
+    width:225px;
+    background-color:rgb(68, 83, 161) ;
+    border: none;
+}
+button:hover{
+    color: whitesmoke;
+}
+.error{
+    margin: 0;
+    text-align: left;
+    color: rgb(243, 61, 61);
+}
